@@ -1,0 +1,4 @@
+baseurl = "http://blog.skunkw0rks.io"
+title = "Michael McAllister"
+languageCode = "en-us"
+theme="base16"
