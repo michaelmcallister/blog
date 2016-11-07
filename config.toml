@@ -1,4 +1,20 @@
 baseurl = "http://blog.skunkw0rks.io"
 title = "Michael McAllister"
 languageCode = "en-us"
-theme="base16"
+MetaDataFormat = "toml"
+theme="hyde-x"
+paginate = 10
+
+[author]
+    name = "Michael McAllister"
+
+[permalinks]
+    post = "/blog/:year/:month/:day/:title/"
+
+[taxonomies]
+    category = "categories"
+
+[params]
+    tagline = "I hear this Cloud thing is really taking off..."
+    github = "https://github.com/michaelmcallister"
+    linkedin = "https://www.linkedin.com/in/mpmcallister"
