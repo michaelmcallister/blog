@@ -15,6 +15,6 @@ paginate = 10
     category = "categories"
 
 [params]
-    tagline = "I hear this Cloud thing is really taking off..."
+    tagline = "I hear this \"cloud\" thing is really taking off..."
     github = "https://github.com/michaelmcallister"
     linkedin = "https://www.linkedin.com/in/mpmcallister"
