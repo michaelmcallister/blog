@@ -1,5 +1,5 @@
-baseurl = "http://blog.skunkw0rks.io"
-title = "Michael McAllister"
+baseurl = "https://blog.skunkw0rks.io"
+title = "Blog"
 languageCode = "en-us"
 MetaDataFormat = "toml"
 theme="hyde-x"
