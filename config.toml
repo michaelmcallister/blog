@@ -4,6 +4,7 @@ languageCode = "en-us"
 MetaDataFormat = "toml"
 theme="hyde-x"
 paginate = 10
+disqusShortname = "blog-skunkw0rks-io"
 
 [author]
     name = "Michael McAllister"
@@ -15,6 +16,8 @@ paginate = 10
     category = "categories"
 
 [params]
+    highlight = "sunburst"
     tagline = "I hear this \"cloud\" thing is really taking off..."
     github = "https://github.com/michaelmcallister"
     linkedin = "https://www.linkedin.com/in/mpmcallister"
+    rss = true
