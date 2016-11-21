@@ -5,7 +5,6 @@ MetaDataFormat = "toml"
 theme="hyde-x"
 paginate = 10
 disqusShortname = "blog-skunkw0rks-io"
-gravatarHash = "5a31e3853ec7302a67f5c6342b8915d2"
 
 [author]
     name = "Michael McAllister"
@@ -17,6 +16,7 @@ gravatarHash = "5a31e3853ec7302a67f5c6342b8915d2"
     category = "categories"
 
 [params]
+    gravatarHash = "5a31e3853ec7302a67f5c6342b8915d2"
     highlight = "sunburst"
     tagline = "I hear this \"cloud\" thing is really taking off..."
     github = "https://github.com/michaelmcallister"
