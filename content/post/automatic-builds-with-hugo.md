@@ -3,7 +3,7 @@ date = "2016-11-21T23:52:00+11:00"
 description = "Using AWS Lambda to automatically build your hugo website and sync it to S3"
 categories = ["projects"]
 keywords = ["hugo","aws","nodejs","Lambda","code"]
-title = "Painless CI-CD with Hugo and Lambda"
+title = "Painless CI CD with Hugo and Lambda"
 +++
 
 I've built my blog with [Hugo](https://gohugo.io/) - and I've been loving it so far!
