@@ -1,15 +1,9 @@
 +++
-date = "2016-11-15T19:51:38+11:00"
 title = "WTFPL"
-description = ""
-keywords = [
-]
-categories = [
-]
-
 +++
 
-```
+<pre>
+
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
 
@@ -24,4 +18,4 @@ categories = [
 
   0. You just DO WHAT THE FUCK YOU WANT TO.
 
-```
+</pre>
