@@ -9,11 +9,11 @@ title = "RouterOS (or your own!) on AWS Lightsail"
 
 If you haven't already seen, Amazon just released [Lightsail](https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/) at this years re:Invent and it's awesome! - I strongly reccomend you check out Jeff Barrs blog post about it.
 
-In a nutshell, it's still the EC2 you know and love but more geared towards users that need something closer to a VPS, rather than leveraging the Cloud (and all the goodness that comes with it, like elasticity and incredible scalability) you get a single instance (a bit more of a pet, than say the rest of your cattle)
+In a nutshell, it's still the EC2 you know and love but more geared towards users that need something closer to a VPS, rather than leveraging Cloud design (like elasticity and incredible scalability) you get a single instance (see [this presentation](http://www.slideshare.net/randybias/architectures-for-open-and-scalable-clouds) on Pet Vs Cattle for Cloud Architecture)
 
 What's there to gain from this? Well, how about some very competitive pricing starting at $5 and a very nice simple to use interface!
 
-Unfortunately at this stage you're confined to either Amazon Linux, or Ubuntu...or /are/ you?
+Unfortunately at this stage you're confined to either Amazon Linux, or Ubuntu...or *are* you?
 
 I managed to get a MikroTik Cloud Hosted Router working on my lightsail instance and it wasn't hard at all.
 

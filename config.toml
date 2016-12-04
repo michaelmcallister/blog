@@ -22,3 +22,4 @@ disqusShortname = "blog-skunkw0rks-io"
     github = "https://github.com/michaelmcallister"
     linkedin = "https://www.linkedin.com/in/mpmcallister"
     rss = true
+    googleAnalytics = "UA-88367397-1"
