@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mmcallister
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.skunkw0rks.io
+  * I am mmcallister (https://keybase.io/mmcallister) on keybase.
+  * I have a public key with fingerprint EAE6 B35E C27C 2042 9218  2C16 4D0C 2B7F B842 D84D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010178f44935ebee74290b521205c473f8090653d222108aacd0b660b82613a43ab90a",
+            "fingerprint": "eae6b35ec27c204292182c164d0c2b7fb842d84d",
+            "host": "keybase.io",
+            "key_id": "4d0c2b7fb842d84d",
+            "kid": "010178f44935ebee74290b521205c473f8090653d222108aacd0b660b82613a43ab90a",
+            "uid": "b7fe21f3d2b8b3102a226996371ccd19",
+            "username": "mmcallister"
+        },
+        "service": {
+            "hostname": "blog.skunkw0rks.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1482803990,
+    "expire_in": 157680000,
+    "prev": "bdb55fa6f63c36d1969d92cdf16005d475bbacd0de70c8d7d448ba8643998215",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.61
+Comment: https://keybase.io/crypto
+
+yMIvAnicrVJJaBRBFJ1xd1yJROOWaIsx4hCrqrurq0cEISoacMMVEcaururYmcn0
+pLsnUWNEvaiooCCCC4mgJnrQGFwCmohxAUmUgAsuB0UGIwjGg7uoWB315tG6FFX/
+vfff+/xbw/qGIuEZ8wtX1m899z3c2X48E1pjdI6ukajDNkmxGinBey+eZNzz4wmb
+STEJQAA1YimKLquccq4pSAdURRAB1VQ02SJAB1iVGUIIAmIYJgMUY0AJwlA2FNmg
+OjCkqGTZqTLupl075QtZbnBMhaKJNBMBoYkgQSbECgMmoppFiYIYUZggbnC8gCHM
+UcPjxbYj/sQj3mvvH/j/7DvTKydacAQtAaeEyhAgAyGs61jWoGkyqAdAj7spo4IL
+dEWFaSSTtudzV6qNSqJQZZs8mG0Q5g+IJp2yYi+RSSWqgZvwfgdLu47vmE5S1Df4
+ftqLBXx/UzogVHMa/yMVp3aKiYEKRhV3PdtJSTEokKZvB9pQIYgAWddBVOIb07bL
+43aAUDVMgDhBH14VeGBUVS0DW1g2ZSxyYJ3pyGQWxACoTNFUSoPJMK4BkzCNKQqh
+BsGK0CYIqlIQrjLlSDFZ2DTKhKRnl6UMP+NyqfbG9XX9QuFIaED/PsGihSKDR/5d
+v0FrB/4YJ725vyI37/TZnr0kusDIizQcm7i79W3jh+dT8+tLVuDcOU+7uqa8LDi5
+sXDCNW3f5srWNYXKkbprP+DCmQdbxmbLXT1n+Kj3Hw8U9UxuIysnDfm4/dWXnJPd
+HaVLr5wpfrk/PHBLSd2hPV1udF6ko3xn7N3eiwWFD048IYsuNeXhVdEhd/KTO1Zf
+nVhZU5Dpbng0fpf2Weqfe7m7pPzuyOzc0sej288vfqTXTTvVxIoq4oenP3utvHj4
+6UDPzsjP3dX5Rc9nwrHRbHbRm/a53fHs0cbZmXtVQ4tuLjnU1lS7fvXhhmXNbfXh
+5ezTiNv7rfNzWkLat3tftoZOjWme3G9bzlc868IvL1U7rQ==
+=+Q5f
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mmcallister
+
+==================================================================
