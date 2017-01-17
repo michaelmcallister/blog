@@ -7,7 +7,7 @@ title = "Adding DNS records from DHCP leases on a MikroTik device"
 
 +++
 
-In my personal endeavours to sharpen my development skills in Golang I've written a small RESTful API to take a domain name and IP address and update Route53 with these values. I've also had a friend help out with code-review and bounce ideas off - it definitely still needs some polish.
+In my personal endeavours to sharpen my development skills in Golang I've written a small RESTful API to take a domain name and IP address and update Route53 with these values. I've also had an old friend help out with code-review and bounce ideas off - it definitely still needs some polish.
 
 This isn't terribly ground breaking or complicated - however, when you couple this with MikroTiks powerful [scripting language](http://wiki.mikrotik.com/wiki/Manual:Scripting) you can run a script to automatically replicate the hostname sent by the client in the DHCP request into DNS. The Host Name option is defined in [RFC1533](https://tools.ietf.org/html/rfc1533#section-3.14)
 
@@ -21,16 +21,17 @@ The application is named [DRMU](https://github.com/michaelmcallister/drmu) (pron
 
 It's as easy as the following commands:
 
-* ```go get -u github.com/michaelmcallister/drmu```
-* ```go build src/github.com/michaelmcallister/drmu/drmu.go```
+* go get -u github.com/michaelmcallister/drmu
+* go build src/github.com/michaelmcallister/drmu/drmu.go
 
 
 ## Configuring DRMU
 
 The config file (./config/app.yaml) must be updated with the following values:
+
 * hostedzone - Zone ID for the Route53 zone you wish to update (eventually I'll integrate a way to look this up within the app)
 * listendaddress - what address/interface to listen on (generally 0.0.0.0 if you want to access it from outside the machine)
-* listenport - the port for the ```listenaddress```
+* listenport - the port for the listenaddress
 
 ## Running and Using DRMU
 
@@ -38,7 +39,7 @@ Once configuration is defined you execute the binary as you would anything other
 
 to update a record you need to hit the point as such:
 
-```http://<listenaddress>:<listenport>/drmu/update/$domain/$ip_address```
+http://listenaddress:listenport/drmu/update/$domain/$ipaddress
 
 DRMU is configured to **UPSERT** records - so changing the IP address will update the A record if it already exists (or create it, if it doesn't)
 
