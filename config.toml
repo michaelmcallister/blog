@@ -15,6 +15,10 @@ disqusShortname = "blog-skunkw0rks-io"
 [taxonomies]
     category = "categories"
 
+[[menu.main]]
+    name = "Resume"
+    url = "https://resume.skunkw0rks.io"
+
 [params]
     gravatarHash = "dadad03da8b24f24d6c12549f4e53e9d"
     highlight = "sunburst"
