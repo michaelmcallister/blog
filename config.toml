@@ -21,7 +21,7 @@ disqusShortname = "blog-skunkw0rks-io"
 
 [params]
     gravatarHash = "dadad03da8b24f24d6c12549f4e53e9d"
-    highlight = "sunburst"
+    highlight = "nord"
     tagline = "I hear this \"cloud\" thing is really taking off..."
     github = "https://github.com/michaelmcallister"
     linkedin = "https://www.linkedin.com/in/mpmcallister"

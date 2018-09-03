@@ -1,0 +1,4 @@
+#!gpxe
+kernel http://${next-server}/pxe/${net0/mac}/boot/vmlinuz-vanilla ip=dhcp alpine_dev=nfs:${net0/next-server}:/homes/nuc1 alpine_repo=http://10.0.0.28/repo/alpine/v3.8/main/ modloop=http://${next-server}/pxe/${net0/mac}/boot/modloop-vanilla apkovl=http://${next-server}/pxe/${net0/mac}/kvm1.apkovl.tar.gz
+initrd http://${next-server}/pxe/${net0/mac}/boot/initramfs-vanilla
+boot

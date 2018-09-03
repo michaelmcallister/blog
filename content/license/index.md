@@ -2,6 +2,10 @@
 title = "WTFPL"
 +++
 
+All code snippets within this blog are released under the WTPL unless otherwise noted.
+
+Opinions are my own and do not reflect the views of any employer; past, present or back-to-the-future 👴👨🚗⌚
+
 <pre>
 
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
