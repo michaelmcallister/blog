@@ -1,13 +1,15 @@
 baseurl = "https://blog.skunkw0rks.io"
-title = "Blog"
-languageCode = "en-us"
-MetaDataFormat = "toml"
-theme="hyde-x"
+title = "Michael McAllister"
+languagecode = "en"
+defaultcontentlanguage = "en"
+theme="anatole"
 paginate = 10
 disqusShortname = "blog-skunkw0rks-io"
+googleAnalytics = "UA-88367397-1"
+enableRobotsTXT = true
 
-[author]
-    name = "Michael McAllister"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [permalinks]
     post = "/blog/:year/:month/:day/:title/"
@@ -16,15 +18,51 @@ disqusShortname = "blog-skunkw0rks-io"
     category = "categories"
 
 [[menu.main]]
-    name = "Resume"
-    url = "https://resume.skunkw0rks.io"
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+name = "Posts"
+weight = 200
+identifier = "posts"
+url = "/post/"
+
+[[menu.main]]
+name = "Resume"
+weight = 300
+identifier = "Resume"
+url = "https://resume.skunkw0rks.io/"
 
 [params]
-    gravatarHash = "dadad03da8b24f24d6c12549f4e53e9d"
-    highlight = "nord"
-    tagline = "I hear this \"cloud\" thing is really taking off..."
-    github = "https://github.com/michaelmcallister"
-    linkedin = "https://www.linkedin.com/in/mpmcallister"
-    keybase = "https://keybase.io/mmcallister"
-    rss = true
-    googleAnalytics = "UA-88367397-1"
+title = "Michael McAllister"
+author = "Michael McAllister"
+profilePicture = "images/profile.png"
+displayMode = "dark"
+doNotLoadAnimations = true
+customCss = ["css/syntax.css"]
+
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://github.com/michaelmcallister/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/michaelmcallister/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:me@michaelmcallister.org"
+
+[[params.socialIcons]]
+  name = "RSS"
+  icon = "fas fa-rss"
+  weight = 2
+  url = "index.xml"
