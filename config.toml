@@ -35,6 +35,12 @@ weight = 300
 identifier = "Resume"
 url = "https://resume.skunkw0rks.io/"
 
+[[menu.main]]
+name = "Code"
+weight = 300
+identifier = "Code"
+url = "/code/"
+
 [params]
 title = "Michael McAllister"
 author = "Michael McAllister"
