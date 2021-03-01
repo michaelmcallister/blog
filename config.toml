@@ -1,4 +1,4 @@
-baseurl = "https://blog.skunkw0rks.io"
+baseurl = "https://blog.skunkw0rks.io/"
 title = "Michael McAllister"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -7,6 +7,7 @@ paginate = 10
 disqusShortname = "blog-skunkw0rks-io"
 googleAnalytics = "UA-88367397-1"
 enableRobotsTXT = true
+favicon = "favicons/"
 
 pygmentsCodeFences = true
 pygmentsUseClasses = true
