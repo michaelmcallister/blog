@@ -1,7 +1,6 @@
 ---
 title: "Using a PN532 NFC module with libnfc"
 date: 2021-05-03T20:32:18+10:00
-draft: true
 keywords: ["linux","PN532","NFC", "RFID", "libnfc", "mfoc","mfcuk", "uart", "cp210x"]
 ---
 
