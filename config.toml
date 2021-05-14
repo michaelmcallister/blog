@@ -56,7 +56,7 @@ customCss = ["css/syntax.css"]
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
-url = "https://github.com/michaelmcallister/"
+url = "https://www.linkedin.com/in/mpmcallister"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
