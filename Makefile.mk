@@ -71,8 +71,11 @@ release: check-status check-release build push
 push: pre-push do-push post-push 
 
 do-push: 
-	docker push $(IMAGE):$(VERSION)
-	docker push $(IMAGE):latest
+	#docker push $(IMAGE):$(VERSION)
+	#docker push $(IMAGE):latest
+	docker buildx build --push --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --tag $(IMAGE):$(VERSION) .
+	docker buildx build --push --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --tag $(IMAGE):latest .
+
 
 snapshot: build push
 
