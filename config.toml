@@ -1,4 +1,4 @@
-baseurl = "https://blog.skunkw0rks.io/"
+baseurl = "https://blog.snk.ws"
 title = "Michael McAllister"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -34,7 +34,7 @@ url = "/post/"
 name = "Resume"
 weight = 300
 identifier = "Resume"
-url = "https://resume.skunkw0rks.io/"
+url = "https://raw.githubusercontent.com/michaelmcallister/CV/master/resume/resume.pdf"
 
 [[menu.main]]
 name = "Code"
