@@ -34,7 +34,7 @@ url = "/post/"
 name = "Resume"
 weight = 300
 identifier = "Resume"
-url = "https://raw.githubusercontent.com/michaelmcallister/CV/master/resume/resume.pdf"
+url = "https://github.com/michaelmcallister/CV/releases/latest/download/resume.pdf"
 
 [[menu.main]]
 name = "Code"
