@@ -10,4 +10,4 @@ It's exceptionally easy, and relies on a judicious use of 37 different colours, 
 
 You can read the source code at: https://github.com/michaelmcallister/doomfire
 
-{{< iframe "https://code.sknk.ws/doomfire/">}}
+{{< iframe "https://code.sknk.ws/doomfire">}}

@@ -15,4 +15,4 @@ Over the 50 or so years it's been studied to death, and is infact Turing complet
 
 You can read the code at https://github.com/michaelmcallister/conway
 
-{{< iframe "https://code.sknk.ws/conway/">}}
+{{< iframe "https://code.sknk.ws/conway">}}

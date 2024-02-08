@@ -9,4 +9,4 @@ Currently it's just a water ripple effect, but I plan to write more over the com
 
 You can read the source code at: https://github.com/michaelmcallister/demo
 
-{{< iframe "https://code.sknk.ws/demos/">}}
+{{< iframe "https://code.sknk.ws/demos">}}
