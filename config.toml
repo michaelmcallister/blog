@@ -2,7 +2,7 @@ baseurl = "https://blog.snk.ws"
 title = "Michael McAllister"
 languagecode = "en"
 defaultcontentlanguage = "en"
-theme="anatole"
+theme="github.com/lxndrblz/anatole"
 paginate = 10
 disqusShortname = "blog-skunkw0rks-io"
 googleAnalytics = "UA-88367397-1"
@@ -11,6 +11,10 @@ favicon = "favicons/"
 
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
 
 [permalinks]
     post = "/blog/:year/:month/:day/:title/"
